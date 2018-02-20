@@ -3,3 +3,4 @@ wp-content/uploads/*
 wpsite.sql
 wp-config.php
 wp-config-sample.php
+.htaccess
