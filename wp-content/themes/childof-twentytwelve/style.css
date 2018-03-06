@@ -2,9 +2,36 @@
    Description: Child of twentytwelve
    Template: twentytwelve
    */
+   @import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Rubik');
 
-   p {
-   	color: blue;
+   .site-header h1 {
+   	text-align:center;
+   }
+   .site-header h2 {
+   	text-align:center;
    }
 
-  
+   .wrapper {
+   	background-color: #f9fbff;
+   }
+
+   body {
+   	background-color: #352c52;
+   }
+
+   p {
+   	font-family: 'Libre Franklin', sans-serif;
+   }
+
+   h1 {
+   	font-family: 'Rubik', sans-serif;
+   }
+
+   a:hover {
+  	color: red;
+   	opacity:.5;
+   }
+
+   #secondary {
+
+   }
