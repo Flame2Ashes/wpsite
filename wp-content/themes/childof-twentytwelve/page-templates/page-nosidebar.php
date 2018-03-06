@@ -2,7 +2,7 @@
 
 /*
  * Template Name: No Sidebar
- * description: >-
+ * description: A page template without the sidebar
   Page template without sidebar
  */
 
