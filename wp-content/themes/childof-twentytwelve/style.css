@@ -11,6 +11,18 @@
    	text-align:center;
    }
 
+   .nav-menu {
+   	background-color: #212121;
+   }
+
+   .main-navigation li a {
+   	color: #ffffff;
+   }
+
+   .main-navigation li a:hover {
+   	color: #d6d6d6;
+   }
+
    .wrapper {
    	background-color: #f9fbff;
    }
