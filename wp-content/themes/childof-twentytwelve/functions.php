@@ -11,4 +11,19 @@ function my_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 }
+
+add_action('get_notitle', 'get_notitle');
+
+function get_notitle() {
+	if (is_home()) {
+		get_header('notitle');
+	}
+}
+
+function wpb_add_google_fonts() {
+ 
+wp_enqueue_style( 'Libre+Franklin|Rubik', 'https://fonts.googleapis.com/css?family=Libre+Franklin|Rubik', false ); 
+}
+ 
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 ?>
